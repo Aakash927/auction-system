@@ -18,12 +18,13 @@ public class clientB {
 
         String serverrequest_name = input.readLine();
         System.out.println("host:" + serverrequest_name);
+        String name = keyboard.readLine();
+        out.println(name);
+        out.flush();
+
+
         for(int i =0; i< 2 ;i++){
            
-            String name = keyboard.readLine();
-            out.println(name);
-            out.flush();
-
             System.out.println("client enter your bid");
             String bid = keyboard.readLine();
             //String s = String.valueOf(bid);
