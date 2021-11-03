@@ -22,6 +22,11 @@ public class clientB {
         out.println(name);
         out.flush();
 
+        String serverResponse2;
+        for(int i = 0; i< 8; i++){
+            serverResponse2 = input.readLine();
+            System.out.println("host : "+ serverResponse2);
+        }
 
         for(int i =0; i< 2 ;i++){
            
