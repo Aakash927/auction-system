@@ -12,7 +12,7 @@ public class serverB {
     private static ArrayList<clienthandler>clients = new ArrayList<>();
     private static ExecutorService pool = Executors.newFixedThreadPool(nthreadpool);
     private static final int port = 9090;
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         ServerSocket listener = new ServerSocket(port);
 
 
